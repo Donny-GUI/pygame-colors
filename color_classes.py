@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 
-@dataclass(slots=True)
+@dataclass
 class Color:
     aliceblue: tuple[int, int, int] = (240, 248, 255)
     antiquewhite: tuple[int, int, int] = (250, 235, 215)
@@ -152,7 +152,7 @@ class Color:
     yellowgreen: tuple[int, int, int] = (154, 205, 50)
     
 
-@dataclass(slots=True)
+@dataclass
 class Blue:
     alice: tuple[int, int, int] = (240, 248, 255)
     blue: tuple[int, int, int] = (0, 0, 255)
@@ -176,7 +176,7 @@ class Blue:
     steel: tuple[int, int, int] = (70, 130, 180)
 
 
-@dataclass(slots=True)
+@dataclass
 class Green:
     dark: tuple[int, int, int] = (0, 100, 0)
     darkolive: tuple[int, int, int] = (85, 107, 47)
@@ -196,7 +196,7 @@ class Green:
     yellow: tuple[int, int, int] = (154, 205, 50)
 
 
-@dataclass(slots=True)
+@dataclass
 class Gray:
     dark: tuple[int, int, int] = (169, 169, 169)
     darkslate: tuple[int, int, int] = (47, 79, 79)
